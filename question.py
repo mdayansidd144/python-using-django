@@ -28,10 +28,21 @@
 # j = int(input("enter the number"))
 # cube = j**3
 # print(cube)
-h = int(input("enter the num"))
-prog = (h//60)+(h%60)
-print(prog)
-x = 120
-y = 3
-speed = x/y
-print(speed)
+# h = int(input("enter the num"))
+# prog = (h//60)+(h%60)
+# print(prog)
+# x = 120
+# y = 3
+# speed = x/y
+# print(speed)
+# p = int(input("enter the number"))
+# q = int(input("enter the number"))
+# if(p%q==0):{
+#   print("yes")
+# }
+# else:
+#   print("no")
+m = float(input("enter the number"))  
+n = float(input("enter the number"))
+quotient = int(m//n)
+print(quotient)
