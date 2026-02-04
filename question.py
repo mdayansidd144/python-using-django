@@ -134,3 +134,14 @@
 #   print("valid")
 # else :
 #   print("invalid")  
+a = int(input("enter the first marks"))
+y = int(input("enter the second marks"))
+z = int(input("enter the third marks"))
+if a >=35 and y>=35 and z>=35:
+  print("passed")
+elif a>=35 and y<35 and z<35:
+  print("pass is one")
+elif a>=35 and y>=35 and z<35:
+  print("passed in two")    
+else:
+  print("fail in all")  
