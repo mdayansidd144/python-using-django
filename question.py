@@ -151,3 +151,49 @@
 # tools and technology
 # industry presentation
 # future scope
+# for and while loop
+# for i in range(5):
+#   print(i)
+# count = 0
+# while count<5:
+#  print(count)
+#  count+=1  
+# for i in range(10):
+#    print(i+1)
+# n = 1
+# sum=0
+# while n<11:
+#   sum = sum+n
+#   n+=1
+# print(sum) 
+# a = int(input("enter the number"))
+# factorial = 1
+# for i in range (a):
+#   factorial = factorial*i
+# print(factorial) 
+# b = int(input("enter the number"))
+# rev = 0
+# while b>0:
+#  rem = b%10
+#  rev = rev*10+rem
+#  b= b/10
+# print(rev)
+# for i in range (26):
+#   print(2*i)
+# a = int(input("enter the number"))
+# sum = 0
+# while a>0:
+#  rem = a%10
+#  a = a/10
+#  sum =sum+rem
+# print(sum)
+# n= 5
+# for i in range(1,n,+1):
+#    print('*'*i)
+# n = 
+# for i in range(n,0,-1):
+#    print(' * '*i)
+n = 5
+for i in range(1,n+1):
+  print(str(i)*i)
+  
