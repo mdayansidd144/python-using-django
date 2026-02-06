@@ -193,7 +193,89 @@
 # n = 
 # for i in range(n,0,-1):
 #    print(' * '*i)
-n = 5
-for i in range(1,n+1):
-  print(str(i)*i)
+# n = 5
+# for i in range(1,n+1):
+#   print(str(i)*i)
+
+
+  # overall view
+  # tools and technology
+  # how to introduce in industry
+  # which feature is embedded and what can be further added
+  # functions
+  # def greet():
+  #   print("hello world")
+  # def greet(name,"guest"):
+  #   print("hello",name)
+  # c = greet('Hello','ayan')
+  # print(c)
+  # def printsum(x,y):
+  #   return x+y
+  # a  = printsum(5,6) 
+  # print(a)
+  # def square(x):
+  #   return x**2
+  # b = square(5)
+  # print(b)
   
+  # def check(x):
+  #   if x%2==0:
+  #    return True
+  #   else :
+  #     return False
+  # a = check(6)  
+  # print(a)
+  # def maximum(x,y):
+  #   return max(x,y)
+  # c = maximum(5,6)
+  # print(c)
+  # def avg(a,b,c,d):
+  #   return (a+b+c+d)/4
+  # d = avg(10,20,30,40)
+  # print(d)
+  # def vowels(a):
+  #   count = 0
+  #   for i in range(a.length):
+  #    if a[i]=='a'or'e'or'i'or'o'or'u':
+  #        count+1
+  #   return count
+  # v = vowels('ayan')
+  # print(v)
+# def factorial(x):
+#   if x<1:
+#     return "negative"
+#   factorial = 1
+#   for i in range(1,x+1):
+#     factorial*=i
+#   return factorial  
+# d = factorial(6)
+# print(d) 
+# def palindrome(x):
+#   c = x
+#   rev = 0
+#   while x>0:
+#     rem = x%10
+#     rev = rev*10+rem
+#     x = x//10
+#   if c==rev:
+#     return True
+#   else:
+#     return False
+# d = palindrome(132)
+# print(d)  
+# def ispalindrome(s):
+#     s = s.lower()  
+#     rev = ""
+#     for ch in s:
+#         rev = ch + rev
+#     return s == rev
+# a = ispalindrome('naman')
+# print(a)
+def simpleinterest(a):
+  return (a*5)/100
+v = simpleinterest(290)
+print(v)
+def details(name,age):
+  print('name:',name,'age:',age)
+h = details('ayan',19)
+print(h)  
