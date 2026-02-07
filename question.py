@@ -271,11 +271,52 @@
 #     return s == rev
 # a = ispalindrome('naman')
 # print(a)
-def simpleinterest(a):
-  return (a*5)/100
-v = simpleinterest(290)
-print(v)
-def details(name,age):
-  print('name:',name,'age:',age)
-h = details('ayan',19)
-print(h)  
+# def simpleinterest(a):
+#   return (a*5)/100
+# v = simpleinterest(290)
+# print(v)
+# def details(name,age):
+#   print('name:',name,'age:',age)
+# h = details('ayan',19)
+# print(h)  
+# list = [1,2,3,4,5]
+# print(list[0])
+# print(list[-1])
+list = [1,2,3,4,5]
+print(sum(list)/len(list))
+# print(len(list))
+# list = ["apple","banana","mango"]
+# list.append("guava")
+# list.insert(1,"papaya")
+# print(list)
+# list.remove(1)
+# # print(list)
+# # list.pop()
+# # print(list)
+# list2 = [1,2,2,4,2,5,6]
+# # list2.count(2)
+# print(list2.count(2))
+# # list3 = [1,2,3,4,5]
+# # print(list3.index(3))
+# list3= [2,3,5,6,7,4]
+# list3.sort()
+# print(list3)
+# list3.sort(reverse=True)
+# print(list3)
+# list3.reverse
+# print(list3)
+# tup = (1,2,3,4,6,5)
+# print(tup[0])
+# print(tup[-1])
+# print(len(tup))
+tup2 = ("mango","jelly","apple","banana")
+for i in range(0,len(tup2),+1):
+  print(tup2[i])
+tup3=(7,8,9,10)  
+tup= tup2+tup3
+print(tup)
+a = tup.count(2)
+if a >1:
+  print("yes")
+else:
+  print("false")  
