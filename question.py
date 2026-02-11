@@ -369,14 +369,14 @@
 #     print(self.name,self.rollno)
 # s1 = student("ayan",11)
 # s1.display()
-class rectangles:
-  def __init__(self,length,breadth):
-    self.length = length
-    self.breadth = breadth
-  def area(self):
-    return self.length * self.breadth
-r1 = rectangles(10,5)
-print(r1.area())
+# class rectangles:
+#   def __init__(self,length,breadth):
+#     self.length = length
+#     self.breadth = breadth
+#   def area(self):
+#     return self.length * self.breadth
+# r1 = rectangles(10,5)
+# print(r1.area())
 # class shape:
 #   def curve(self):
 #     print("the curve is smooth")
@@ -407,12 +407,25 @@ print(r1.area())
 # b1.sound()
 # s1 = sparrow()
 # s1.sound()    
-class car:
-  def __init__(self,speed,hp,milege):
-    self.speed = speed
-    self.milege = milege
-    self.hp = hp
-  def start(self):
-    print(self.speed,self.hp,self.milege)  
-c1 = car("bmw m5 cs",120,10)
-c1.start()
+# class variable ko saare objects use kr sakte hai
+# class car:
+#   def __init__(self,speed,hp,milege):
+#     self.speed = speed
+#     self.milege = milege
+#     self.hp = hp
+#   def start(self):
+#     print(self.speed,self.hp,self.milege)  
+# c1 = car("bmw m5 cs",620,10)
+# c1.start()
+class bankaccount:
+  def __init__(self,owner,balance):
+    self.__balance = balance
+    self.owner = owner
+  def deposit(self,amount):
+    self.__balance+=amount  
+  def get_balance(self):
+    return self.__balance
+acc = bankaccount("ayan",50000)
+acc.deposit(20000) 
+print(acc.get_balance())
+ 
