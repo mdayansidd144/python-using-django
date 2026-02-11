@@ -417,15 +417,58 @@
 #     print(self.speed,self.hp,self.milege)  
 # c1 = car("bmw m5 cs",620,10)
 # c1.start()
-class bankaccount:
-  def __init__(self,owner,balance):
-    self.__balance = balance
-    self.owner = owner
-  def deposit(self,amount):
-    self.__balance+=amount  
-  def get_balance(self):
-    return self.__balance
-acc = bankaccount("ayan",50000)
-acc.deposit(20000) 
-print(acc.get_balance())
- 
+# class bankaccount:
+#   def __init__(self,owner,balance):
+#     self.__balance = balance
+#     self.owner = owner
+#   def deposit(self,amount):
+#     self.__balance+=amount  
+#   def get_balance(self):
+#     return self.__balance
+# acc = bankaccount("ayan",50000)
+# acc.deposit(20000) 
+# print(acc.get_balance())
+# class student:
+#   def __init__(self,marks):
+#     self.__marks = marks
+#   def display(self):
+#     return self.__marks  
+# s1 = student(95)
+# print(s1.display())  
+# class employee:
+#   def __init__(self,salary):
+#     self.__salary = salary
+#   def bonus(self,bonus):
+#     self.__salary+=bonus  
+#   def display(self):
+#     return self.__salary
+# e1 = employee(100000)
+# e1.bonus(50000)  
+# print(e1.display())
+# class account:
+#   def __init__(self,balance):
+#     self.__balance = balance
+#   def display(self):
+#     return self.__balance
+# ac1 = account(1000000)
+# print(ac1.display()) 
+# class mobile:
+#   def __init__(self,brand,price):
+#     self.__price = price
+#     self.brand = brand
+#   def price(self,amount):
+#     self.__price+=amount
+#   def display(self):
+#     return self.__price,self.brand
+
+# m1 = mobile("One-plus",28000)
+# m1.price(2000)
+# print(m1.display())  
+# class person:
+#   def __init__(self,name,age):
+#     self.name = name
+#     self.__age = age
+#   def display(self):
+#     return self.__age  
+# p1 = person("ayan",19)
+# print(p1.display())      
