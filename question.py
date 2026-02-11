@@ -460,7 +460,6 @@
 #     self.__price+=amount
 #   def display(self):
 #     return self.__price,self.brand
-
 # m1 = mobile("One-plus",28000)
 # m1.price(2000)
 # print(m1.display())  
@@ -471,4 +470,22 @@
 #   def display(self):
 #     return self.__age  
 # p1 = person("ayan",19)
-# print(p1.display())      
+# print(p1.display())
+# class student:
+#   def __init__(self,name,age):
+#     self.name = name
+#     self.age = age
+#   def display(self) :
+#     return self.name,self.age
+# s1 = student("ayan",19)
+# print(s1.display())
+# class car:
+#   def __init__(self,name,brand,price):
+#     self.name =  name
+#     self.brand = brand
+#     self.price = price
+#   def display(self):
+#     return self.name,self.brand,self.price
+# c1 = car("cullinan",'Rolls-Royce','8cr')  
+# print(c1.display())
+            
