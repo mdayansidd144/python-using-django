@@ -490,3 +490,87 @@
 # print(c1.display())
 # this is mohd ayan siddiqui
 # django itself has database Connector         
+
+list = ["cherry","banana","apple"]
+# print(list[0:2])
+# print(list[0:])
+# print(list[:2])
+list.append("mango")
+# print(list)
+list.insert(1,"coconut")
+# print(list)
+# print(list[:2])
+# print(list[0:])
+# pop last wale ko delete krne ke liye hote hai
+list.pop()
+# print(list)
+# mango nikal jayega
+# list.remove("cherry")
+# print(list)
+# list.reverse()
+# print(list)
+# list.index("cherry")
+# print(list.index("cherry"))
+# print(list.count("cherry"))
+# tup1 = (1,2,3,4,5,6)
+# for i in range(0,len(tup1),+1):
+#   print(tup1[i])
+#   # ye idx batayega par ke andar ke number ka idx
+# print(tup1.index(2))
+# print(tup1.count(4))
+# set1 = {1,3,6,5,4}
+# print(set1.discard(5))
+# print(set1)
+# n  = int(input("enter the number"))
+# factorial = 1
+# for i in range(1,n+1,+1):
+#   factorial = factorial*i 
+# print(factorial)
+# x = int(input("enter the number"))
+# rev = 0
+# while(x>0):
+#   rem = x%10
+#   rev = rev*10+rem
+#   x= x//10
+# print(rev)
+# z = int(input("enter the number"))
+# sum = 0
+# while(z>0):
+#   rem = z%10
+#   sum = sum+rem
+#   z = z//10
+# print(sum)
+# for i in range(1,11,+1):
+#   print(i)
+
+# def factorial(x):
+#   if x<1:
+#     return "negative"
+#   elif(x>1):
+#     return x*factorial(x-1)
+#   else:
+#     return 1 
+# c = factorial(8)
+# print(c)  
+# def palindrome(y):
+#   p = y
+#   rev =0
+#   while(p>0):
+#     rem = p%10
+#     rev = rev*10+rem 
+#     p= p//10
+#   if(rev==y):
+#     print("palindrome")  
+#   else:
+#     print("not a palindrome")  
+# q = palindrome(987)
+# print(q)
+# a = int(input("enter the number"))
+# # for i in range(0,a+1):
+# #   print("*"*i)
+# for i in range(a,0,-1):
+#   print("*"*i)
+# for i in range(1,21):
+#   if();
+#     print(i)
+    
