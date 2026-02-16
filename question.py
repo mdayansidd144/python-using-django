@@ -573,4 +573,38 @@ list.pop()
 # for i in range(1,21):
 #   if();
 #     print(i)
-    
+# for i in range(1,21):
+#   if(i%3!=0):
+#     print(i)
+countries = {
+  "india":"new delhi",
+  "france":"paris",
+  "new-zealand":"wellington",
+  "usa":"washington-dc",
+  "germany":"berlin"
+}
+# print(countries)
+# print(countries["india"])
+# countries["japan"]="tokyo"
+# print(countries)
+# countries["usa"]= "new-york"
+# print(countries)
+# countries.pop("france")
+student={
+  "ayan":95,
+  "aalishan":90,
+  "aatif":93,
+  "akbar":99,
+  "rahul":89
+}
+# print(student.keys())
+# print(student.values())
+# print(student.items())
+# print(student.get("rahul"))
+# student.update(("asim",95))
+# student.update(("adil",95))
+# student.update(("arkam",97))
+# print(student)
+countries.pop("germany")
+countries.get("brazil")
+countries.clear
